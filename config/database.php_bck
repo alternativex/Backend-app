@@ -1,0 +1,20 @@
+<?php
+
+return array(
+
+    'default'     => 'mysql',
+    'fetch'       => PDO::FETCH_ASSOC,
+    'migrations'  => 'migrations',
+    'connections' => array(
+        'mysql' => array(
+            'driver'    => 'mysql',
+            'host'      => 'localhost',
+            'database'  => 'publisher_prod',
+            'username'  => 'royalty',
+            'password'  => 'eVedDL9mjw7AxPap',
+            'charset'   => 'utf8',
+            'collation' => 'utf8_unicode_ci',
+            'prefix'    => '',
+        ),
+    ),
+);

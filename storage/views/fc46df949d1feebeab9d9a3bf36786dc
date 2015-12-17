@@ -1,0 +1,3 @@
+Error when processing <?php echo $dir; ?>
+
+Error: <?php echo $errorMessage; ?>

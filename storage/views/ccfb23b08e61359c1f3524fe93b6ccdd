@@ -1,0 +1,4 @@
+
+The analysis is ready for deal <?php echo $deal->name; ?> and writer <?php echo $deal->writer_name; ?>.
+
+Login into your account to see the analysis.

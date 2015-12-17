@@ -1,0 +1,4 @@
+Hi,<br />
+<br />
+Contact <strong><?php echo $user->name; ?></strong> (<a href="mailto:<?php echo $user->email; ?>) "><?php echo $user->email; ?>) </a>)
+regarding the analysis <strong><?php echo $deal->name; ?> (id: <?php echo $deal->id; ?>)</strong>
